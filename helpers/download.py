@@ -5,7 +5,7 @@
 
 import time
 import json
-
+from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from helpers.progress import progress_func
 from helpers.tools import execute, clean_up
