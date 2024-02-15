@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @trojanzhex
 
-
+from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram import Client as trojanz
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
