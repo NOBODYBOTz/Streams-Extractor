@@ -47,8 +47,7 @@ async def help(client, message):
                         "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
                 ]
             ]
-        ),
-        reply_to_message_id=message.message_id
+        )
     )
 
 
@@ -68,6 +67,5 @@ async def about(client, message):
                         "SOURCE CODE", url="https://github.com/TroJanzHEX/Streams-Extractor")
                 ]
             ]
-        ),
-        reply_to_message_id=message.message_id
+        )
     )
