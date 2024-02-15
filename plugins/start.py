@@ -27,6 +27,7 @@ async def start(client, message):
                         "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
                 ]
             ]
+        ) 
 
 
 @trojanz.on_message(filters.command(["help"]) & filters.private)
