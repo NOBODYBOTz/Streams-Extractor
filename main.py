@@ -21,4 +21,4 @@ if __name__ == "__main__":
         workers=300
     )
     Config.AUTH_USERS.add(680815375)
-    app.run(port=8080)
+    app.run()
